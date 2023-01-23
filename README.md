@@ -2,4 +2,4 @@
 ДЗ з Logika
 
 
-Модуль 2 *** Урок 1 *** Цифра 2 - https://zabeidanazar.github.io/Logika/Модуль 2 *** Урок 1 *** Цифра 2
+Модуль 2 *** Урок 1 *** Цифра 2 - https://zabeidanazar.github.io/Logika/
