@@ -11,3 +11,5 @@
 
 
 Модуль 2 *** Урок 5 *** Цифра 10 - https://zabeidanazar.github.io/Logika/2.5.10
+
+Модуль 2 *** Урок 5 *** Цифра 10 - https://zabeidanazar.github.io/Logika/2.5.10_flex - використання flex
