@@ -1,0 +1,169 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid darkblue;
+    padding: 5px;
+    background-color: honeydew;
+}
+
+header .button a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 7px 10px;
+    background-color: blue;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* all */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* header and main and footer */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRInmPs35tiC1_rTYc6xMo9vr4gIVjYxki_mg&usqp=CAU");
+    background-attachment: fixed;
+}
+
+body::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 0, 0.4);
+    position: absolute;
+    z-index: -1;
+}
+header, main, footer {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 700px;
+    width: -webkit-fill-available;
+}
+
+header {
+    margin-top: 10px;
+}
+main {
+    margin: 20px 0;
+}
+
+
+
+/* main */
+
+/* nav start */
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 19px;
+    padding: 5px 10px;
+    background-color: #b4b7c0;
+    border-radius: 10px 10px 10px 0;
+}
+/* nav end */
+main {
+    background-color: #E6E6FA;
+    padding: 10px 20px;
+}
+/* sections */
+.start {
+    text-align: center;  
+}
+
+.start img {
+    width: 60%;
+}
+
+.price .price-elements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price .price-elements div {
+    border: 2px solid darkviolet;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #d8e7bf;
+    font-size: 18px;
+}
+
+.price .price-elements div img {
+    margin-bottom: 10px;
+}
+
+.discount img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.delivery .button {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+}
+
+.wholesale img{
+    border-radius: 20px;
+}
+
+.up-arrow {
+    text-align: right;
+}
+
+/* footer */
+
+footer {
+    background-color: #161D26;
+    margin: 0;
+}
+
+footer p {
+    color: #646878;
+    padding: 5px 15px; 
+}
+
+footer #contacts {
+    color: #9196a6;
+}
+
+
+
+
+
+
+
