@@ -60,7 +60,7 @@ body::after {
 header, main, footer {
     border-radius: 20px;
     box-sizing: border-box;
-    max-width: 800px;
+    max-width: 1000px;
     width: -webkit-fill-available;
 }
 
